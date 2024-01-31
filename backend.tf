@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket    = "test11-tf-remote-state"
-    key       = "juniper-webiste-ecs.tfstate"
+    key       = "terraform-test.tfstate"
     region    = "us-west-2"
     profile   = "terraform-user"
   }
